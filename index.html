@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    </style>
+    <title>Spotify Clone</title>
+</head>
+<body>
+    <nav class="z-20 p-4 bg-black text-white	sticky top-0">
+        <ul class="flex gap-8 ">
+            <li class="cursor-pointer flex text-xl ml-4 hover:text-xl font-medium"><img src="logo.png" alt="Spotify" class="h-6 w-6 ">Spotify</li>
+            <li class="cursor-pointer hover:text-xl font-medium">Home</li>
+            <li class="cursor-pointer hover:text-xl font-medium">About</li>
+        </ul>
+    </nav>
+
+    <!-- <div class="container flex bg-black text-white w-4/5 rounded-lg mx-auto my-6" style="background-image: url('bg.jpg'); background-size: cover; background-position: center;height: 63vh;"> -->
+    <div class="container overflow-hidden flex bg-black text-white w-4/5 rounded-lg mx-auto my-6 bg-[url('bg.jpg')] bg-cover bg-center bg-no-repeat" style="height: 80vh;">
+        <div class="songList">
+            <h1 class="z-10 sticky top-0 text-xl p-2 ">Best of NCS - No Copyright Sounds-</h1>
+            <div class="mx-auto my-6 overflow-scroll" style="height: 80vh;">
+                <div class="songItem h-12 flex bg-white w-4/5 text-black my-2 items-center gap-1 mx-6 rounded-xl">
+                    <img class="h-12 w-14 ml-5 rounded-sm" src="covers/1.jpg" alt="jpg">
+                    <span class="text-sm font-medium">Let me Love You</span>
+                    <span class="songListPlay text-sm">05:34</span>
+                    <span><i class="fa-regular fa-circle-play cursor-pointer text-xl" style="color: #16a84b;"></i></span>
+                </div>
+                <div class="songItem h-12 flex bg-white w-4/5 text-black my-2 items-center gap-1 mx-6 rounded-xl">
+                    <img class="h-12 w-14 ml-5 rounded-sm" src="covers/2.jpg" alt="jpg">
+                    <span class="text-sm font-medium">Let me Love You</span>
+                    <span class="songListPlay text-sm">05:34</span>
+                    <span><i class="fa-regular fa-circle-play cursor-pointer text-xl" style="color: #16a84b;"></i></span>
+                </div>
+                <div class="songItem h-12 flex bg-white w-4/5 text-black my-2 items-center gap-1 mx-6 rounded-xl">
+                    <img class="h-12 w-14 ml-5 rounded-sm" src="covers/3.jpg" alt="jpg">
+                    <span class="text-sm font-medium">Let me Love You</span>
+                    <span class="songListPlay text-sm">05:34</span>
+                    <span><i class="fa-regular fa-circle-play cursor-pointer text-xl" style="color: #16a84b;"></i></span>
+                </div>
+                <div class="songItem h-12 flex bg-white w-4/5 text-black my-2 items-center gap-1 mx-6 rounded-xl">
+                    <img class="h-12 w-14 ml-5 rounded-sm" src="covers/4.jpg" alt="jpg">
+                    <span class="text-sm font-medium">Let me Love You</span>
+                    <span class="songListPlay text-sm">05:34</span>
+                    <span><i class="fa-regular fa-circle-play cursor-pointer text-xl" style="color: #16a84b;"></i></span>
+                </div>
+                <div class="songItem h-12 flex bg-white w-4/5 text-black my-2 items-center gap-1 mx-6 rounded-xl">
+                    <img class="h-12 w-14 ml-5 rounded-sm" src="covers/5.jpg" alt="jpg">
+                    <span class="text-sm font-medium">Let me Love You</span>
+                    <span class="songListPlay text-sm">05:34</span>
+                    <span><i class="fa-regular fa-circle-play cursor-pointer text-xl" style="color: #16a84b;"></i></span>
+                </div>
+                <div class="songItem h-12 flex bg-white w-4/5 text-black my-2 items-center gap-1 mx-6 rounded-xl">
+                    <img class="h-12 w-14 ml-5 rounded-sm" src="covers/6.jpg" alt="jpg">
+                    <span class="text-sm font-medium">Let me Love You</span>
+                    <span class="songListPlay text-sm">05:34</span>
+                    <span><i class="fa-regular fa-circle-play cursor-pointer text-xl" style="color: #16a84b;"></i></span>
+                </div>
+                <div class="songItem h-12 flex bg-white w-4/5 text-black my-2 items-center gap-1 mx-6 rounded-xl">
+                    <img class="h-12 w-14 ml-5 rounded-sm" src="covers/7.jpg" alt="jpg">
+                    <span class="text-sm font-medium">Let me Love You</span>
+                    <span class="songListPlay text-sm">05:34</span>
+                    <span><i class="fa-regular fa-circle-play cursor-pointer text-xl" style="color: #16a84b;"></i></span>
+                </div>
+                <div class="songItem h-12 flex bg-white w-4/5 text-black my-2 items-center gap-1 mx-6 rounded-xl">
+                    <img class="h-12 w-14 ml-5 rounded-sm" src="covers/8.jpg" alt="jpg">
+                    <span class="text-sm font-medium">Let me Love You</span>
+                    <span class="songListPlay text-sm">05:34</span>
+                    <span><i class="fa-regular fa-circle-play cursor-pointer text-xl" style="color: #16a84b;"></i></span>
+                </div>
+                <div class="songItem h-12 flex bg-white w-4/5 text-black my-2 items-center gap-1 mx-6 rounded-xl">
+                    <img class="h-12 w-14 ml-5 rounded-sm" src="covers/9.jpg" alt="jpg">
+                    <span class="text-sm font-medium">Let me Love You</span>
+                    <span class="songListPlay text-sm">05:34</span>
+                    <span><i class="fa-regular fa-circle-play cursor-pointer text-xl" style="color: #16a84b;"></i></span>
+                </div>
+                <div class="songItem h-12 flex bg-white w-4/5 text-black my-2 items-center gap-1 mx-6 rounded-xl">
+                    <img class="h-12 w-14 ml-5 rounded-sm" src="covers/10.jpg" alt="jpg">
+                    <span class="text-sm font-medium">Let me Love You</span>
+                    <span class="songListPlay text-sm">05:34</span>
+                    <span><i class="fa-regular fa-circle-play cursor-pointer text-xl" style="color: #16a84b;"></i></span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom  h-32 flex flex-col bg-black bottom-8 relative top-0" >
+        <input class="w-4/5 mx-auto cursor-pointer mt-8" type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons flex justify-center gap-1 mt-2 ">
+            <!-- fontawesome Icons  -->
+            <i class="backward fa-solid fa-backward cursor-pointer text-3xl" style="color: #15a248;"></i>
+            <i class="playbtn fa-regular fa-circle-play cursor-pointer text-3xl" style="color: #16a84b;"></i>
+            <i class="forward fa-solid fa-forward cursor-pointer text-3xl" style="color: #16a248;"></i>
+        </div>
+        <div class="songInfo text-white mx-auto absolute flex gap-4" style="left: 10vw; top: 50px;">
+            <img class="transition-opacity opacity-0 w-16 h-6" src="playing.gif" alt="gif">
+            <!-- Let me Love You - Justin Bieber -->
+        </div>
+    </div>
+
+
+
+    <!-- Scripts   -->
+    <script src="https://kit.fontawesome.com/4656d5f17e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
